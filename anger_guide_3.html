@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>怒りが高まったときの気持ちの落ち着かせ方</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background: #f7f5f2;
+    color: #2c2c2a;
+    min-height: 100vh;
+    padding: 0 0 3rem;
+  }
+
+  .hero {
+    background: #fff;
+    text-align: center;
+    padding: 2.5rem 1.5rem 2rem;
+    border-bottom: 1px solid #e8e6e0;
+  }
+
+  .hero h1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #2c2c2a;
+    margin-bottom: 0.75rem;
+  }
+
+  .hero p {
+    font-size: 14px;
+    color: #888780;
+    line-height: 1.7;
+  }
+
+  .wrap {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 500;
+    color: #b4b2a9;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 2rem 0 0.75rem;
+  }
+
+  .level-card {
+    background: #fff;
+    border-radius: 14px;
+    border: 1px solid #e8e6e0;
+    padding: 1rem 1.25rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .level-badge {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+
+  .l1 .level-badge { background: #EAF3DE; color: #3B6D11; }
+  .l2 .level-badge { background: #FAEEDA; color: #854F0B; }
+  .l3 .level-badge { background: #FAECE7; color: #993C1D; }
+  .l4 .level-badge { background: #FCEBEB; color: #A32D2D; }
+
+  .level-body { flex: 1; }
+  .level-title { font-size: 15px; font-weight: 500; color: #2c2c2a; margin-bottom: 3px; }
+  .level-sub { font-size: 13px; color: #888780; line-height: 1.6; }
+
+  .alert-banner {
+    background: #fff8f5;
+    border-left: 3px solid #D85A30;
+    border-radius: 0 10px 10px 0;
+    padding: 0.875rem 1rem;
+    margin: 1rem 0;
+  }
+  .alert-banner p { font-size: 13px; color: #993C1D; line-height: 1.7; }
+
+  .method-card {
+    background: #fff;
+    border-radius: 14px;
+    border: 1px solid #e8e6e0;
+    padding: 1.125rem 1.25rem;
+    margin-bottom: 10px;
+  }
+
+  .method-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+
+  .method-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 18px;
+    background: #f7f5f2;
+  }
+
+  .method-title-wrap { flex: 1; }
+
+  .method-card h3 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #2c2c2a;
+    margin-bottom: 2px;
+    line-height: 1.4;
+  }
+
+  .tags { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 8px; }
+
+  .tag {
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 99px;
+  }
+  .tag-fast { background: #EAF3DE; color: #3B6D11; }
+  .tag-anywhere { background: #E6F1FB; color: #185FA5; }
+  .tag-new { background: #EEEDFE; color: #3C3489; }
+  .tag-top { background: #FCEBEB; color: #A32D2D; }
+
+  .method-card p {
+    font-size: 13px;
+    color: #888780;
+    line-height: 1.75;
+    margin-bottom: 0;
+  }
+
+  .steps {
+    background: #f7f5f2;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    margin-top: 10px;
+  }
+  .steps p {
+    font-size: 13px;
+    color: #444441;
+    line-height: 2;
+  }
+
+  .divider {
+    height: 1px;
+    background: #e8e6e0;
+    margin: 2rem 0 0;
+  }
+
+  .point-card {
+    background: #fff;
+    border-radius: 14px;
+    border: 1px solid #e8e6e0;
+    padding: 1.25rem;
+    margin-top: 0.75rem;
+  }
+  .point-card p {
+    font-size: 14px;
+    color: #2c2c2a;
+    line-height: 1.9;
+  }
+  .point-card strong { font-weight: 500; }
+
+  .footer {
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 0 1rem;
+  }
+  .footer p { font-size: 12px; color: #b4b2a9; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>怒りが高まったときの<br>気持ちの落ち着かせ方</h1>
+  <p>怒りが「60」くらいになったと感じたら、<br>この方法を試してみてください。</p>
+</div>
+
+<div class="wrap">
+
+  <p class="section-label">自分の怒りのレベルを知る</p>
+
+  <div class="level-card l1">
+    <div class="level-badge">20</div>
+    <div class="level-body">
+      <div class="level-title">なんか違う気がする</div>
+      <div class="level-sub">「これでいいのかな？」とモヤモヤする。まだ言葉にしにくい段階。</div>
+    </div>
+  </div>
+
+  <div class="level-card l2">
+    <div class="level-badge">30</div>
+    <div class="level-body">
+      <div class="level-title">なんか腹立つ</div>
+      <div class="level-sub">話し方やテンポが気になり始める。感情として意識できてくる。</div>
+    </div>
+  </div>
+
+  <div class="level-card l3">
+    <div class="level-badge">60</div>
+    <div class="level-body">
+      <div class="level-title">これ以上はやばいかも</div>
+      <div class="level-sub">「我慢の限界が近い」と感じる。打ち合わせや作業が嫌になってくる。</div>
+    </div>
+  </div>
+
+  <div class="alert-banner">
+    <p>60になったら、下の方法をすぐ試してください。<br>ここで対処できると、爆発を防げます。</p>
+  </div>
+
+  <div class="level-card l4">
+    <div class="level-badge">100</div>
+    <div class="level-body">
+      <div class="level-title">感情が爆発する</div>
+      <div class="level-sub">一気に感情があふれ出す。細かいことまで全部気になってしまう。</div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+  <p class="section-label">60になったらやること</p>
+
+  <div class="method-card">
+    <div class="method-header">
+      <div class="method-icon">🚪</div>
+      <div class="method-title-wrap">
+        <h3>まずその場を離れる</h3>
+        <div class="tags">
+          <span class="tag tag-top">最優先</span>
+          <span class="tag tag-fast">最も効果が出やすい</span>
+        </div>
+      </div>
+    </div>
+    <p>トイレでも廊下でも、とにかく5分その場から離れてください。刺激から物理的に遠ざかることが、最も効果が出やすい方法です。</p>
+    <div class="steps">
+      <p>「少し確認してきます」と一言添えて、席を立つだけでOK。</p>
+    </div>
+  </div>
+
+  <div class="method-card">
+    <div class="method-header">
+      <div class="method-icon">💨</div>
+      <div class="method-title-wrap">
+        <h3>息を長く吐く</h3>
+        <div class="tags">
+          <span class="tag tag-fast">60秒で効果あり</span>
+          <span class="tag tag-anywhere">どこでも</span>
+        </div>
+      </div>
+    </div>
+    <p>吸う時間の2倍、長く吐くことで体が落ち着きモードに切り替わります。</p>
+    <div class="steps">
+      <p>① 鼻から4秒かけて吸う<br>② 口から8秒かけてゆっくり吐く<br>③ これを5回くり返す</p>
+    </div>
+  </div>
+
+  <div class="method-card">
+    <div class="method-header">
+      <div class="method-icon">👂</div>
+      <div class="method-title-wrap">
+        <h3>耳の後ろの骨をやさしく撫でる</h3>
+        <div class="tags">
+          <span class="tag tag-new">おすすめ</span>
+          <span class="tag tag-anywhere">どこでも</span>
+        </div>
+      </div>
+    </div>
+    <p>耳の後ろにある出っ張った骨のあたりを撫でると、すぐそばを通っている神経が刺激され、体が落ち着きモードに切り替わります。</p>
+    <div class="steps">
+      <p>① 耳の後ろの骨に指2本をそっとあてる<br>② 円を描くようにやさしく撫でる<br>③ 30秒〜1分、力を入れすぎずに<br>④ 左右どちらでも・両側でもOK</p>
+    </div>
+  </div>
+
+  <div class="method-card">
+    <div class="method-header">
+      <div class="method-icon">🎵</div>
+      <div class="method-title-wrap">
+        <h3>ハミングする</h3>
+        <div class="tags">
+          <span class="tag tag-anywhere">トイレでこっそりできる</span>
+        </div>
+      </div>
+    </div>
+    <p>口を閉じたまま「んーーー」と声を出すだけ。喉の振動が神経に直接働きかけて、怒りが和らぎます。30秒でOK。</p>
+  </div>
+
+  <div class="method-card">
+    <div class="method-header">
+      <div class="method-icon">💧</div>
+      <div class="method-title-wrap">
+        <h3>冷たい水で顔・首を冷やす</h3>
+        <div class="tags">
+          <span class="tag tag-fast">即効性が高い</span>
+        </div>
+      </div>
+    </div>
+    <p>洗面台で顔や首筋に冷水をあてるだけ。体温が下がると心拍数も落ち着きます。感情が激しいときに特に効果的。</p>
+  </div>
+
+  <div class="method-card">
+    <div class="method-header">
+      <div class="method-icon">👁</div>
+      <div class="method-title-wrap">
+        <h3>目だけをゆっくり左右に動かす</h3>
+        <div class="tags">
+          <span class="tag tag-anywhere">座ったままできる</span>
+        </div>
+      </div>
+    </div>
+    <p>頭は動かさず、目だけをゆっくり左→右→左と動かします。30秒〜1分。怒りの感覚が少しずつ薄れてくるのを感じられます。</p>
+  </div>
+
+  <div class="method-card">
+    <div class="method-header">
+      <div class="method-icon">🤲</div>
+      <div class="method-title-wrap">
+        <h3>胸をトントンする</h3>
+        <div class="tags">
+          <span class="tag tag-anywhere">どこでも・一人でできる</span>
+        </div>
+      </div>
+    </div>
+    <p>両手を胸の前でクロスさせ、左右交互にゆっくりトントンと叩きます。リズムが神経系を落ち着かせます。30秒〜1分。</p>
+  </div>
+
+  <div class="divider"></div>
+  <p class="section-label">ポイント</p>
+
+  <div class="point-card">
+    <p>「考えないようにしよう」と頑張らなくて大丈夫です。<br><br>
+    怒りに集中しているより、<strong>別のこと（感覚・行動）に注意を向ける</strong>ほうが、怒りは自然と通り過ぎていきます。<br><br>
+    全部やろうとしなくていいので、まず「離れる」か「長く吐く」だけ試してみてください。</p>
+  </div>
+
+  <div class="footer">
+    <p>© Hanacel Counseling Lab</p>
+  </div>
+
+</div>
+</body>
+</html>
